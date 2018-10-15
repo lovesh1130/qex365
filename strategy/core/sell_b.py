@@ -35,6 +35,7 @@ class SellB:
         else:
             return True
 
+
     def condition_2(self, T):
         pre_T = T - 3600
         df1 = self.datas[(self.datas['id'] == T)]
