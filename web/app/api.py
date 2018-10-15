@@ -10,6 +10,7 @@ def hello_world():
     result = {"list":strategyInstanceList}
     htmlStr = json.dumps(result)
     print("test")
+    print("test")
     return htmlStr
 
 @app.route('/')
