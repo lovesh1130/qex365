@@ -9,8 +9,6 @@ def hello_world():
     htmlStr = "<button>Save</button>"
     result = {"list":strategyInstanceList}
     htmlStr = json.dumps(result)
-    print("test")
-    print("test")
     return htmlStr
 
 @app.route('/')
